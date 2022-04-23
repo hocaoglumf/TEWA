@@ -127,7 +127,7 @@ for i in range(target):
     sgn="="
     if (weapon<target):
         sgn="<="
-        vl="1"
+        vl="y"+str(i)
     else: # (weapon>=target):
         sgn =">="
         vl="y"+str(i)
